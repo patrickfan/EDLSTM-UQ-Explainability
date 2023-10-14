@@ -1,5 +1,7 @@
 # EDLSTM-UQ-Explainability
 
+We propose an explainable machine learning (ML) model with uncertainty quantification (UQ) to improve multi-step reservoir inflow forecasting. Traditional ML methods have challenges in forecasting inflows multiple days ahead, and lack explainability and UQ. To address these limitations, we introduce an encoder–decoder long short-term memory (ED-LSTM) network for multi-step forecasting, employ the SHapley Additive exPlanation (SHAP) technique for understanding the influence of hydrometeorological factors on inflow prediction, and develop a novel UQ method for prediction trustworthiness. 
+
 # Prerequisite
 
 To run the code, make sure these packages are installed in addition to the commonly used Numpy, Pandas, Matplotlib, sklearn, etc.
