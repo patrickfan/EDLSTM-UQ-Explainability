@@ -13,13 +13,13 @@ To run the code, make sure these packages are installed in addition to the commo
 # Run the code
 We use the ED-LSTM network as the encoder to extract the information from time-series data, then we train MLP networks for UQ based on the intermediate predictions from the LSTM encoder.
 
-First run the LSTM-encoder:
+First run the LSTM-encoder for multi-step prediction:
 
 `python main_PI3NN.py --data CRY --mode lstm_encoder --project ./examples/Reservoir_Inflow_proj/ --exp CRY --configs ./examples/Reservoir_Inflow_proj/CRY/configs_encoder.json
 `
 
 
-And run the PI3NN-MLP:
+And run the PI3NN-MLP for UQ:
 
 `python main_PI3NN.py --data CRY --mode PI3NN_MLP --project ./examples/Reservoir_Inflow_proj/ --exp CRY --configs ./examples/Reservoir_Inflow_proj/CRY/configs_PI3NN.json
 `
