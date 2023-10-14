@@ -11,7 +11,7 @@ To run the code, make sure these packages are installed in addition to the commo
 --- SHAP
 
 # Run the code
-We use the ED-LSTM network as the encoder to extract the information from time-series data, then we train UQnet-MLP networks for UQ based on the intermediate predictions from the LSTM encoder.
+We use the ED-LSTM network as the encoder to extract the information from time-series data, then we train MLP networks for UQ based on the intermediate predictions from the LSTM encoder.
 
 First run the LSTM-encoder:
 
