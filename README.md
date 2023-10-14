@@ -15,6 +15,8 @@ First run the LSTM-encoder:
 
 `python main_PI3NN.py --data CRY --mode lstm_encoder --project ./examples/Reservoir_Inflow_proj/ --exp CRY --configs ./examples/Reservoir_Inflow_proj/CRY/configs_encoder.json
 `
+
+
 And run the PI3NN-MLP:
 
 `python main_PI3NN.py --data CRY --mode PI3NN_MLP --project ./examples/Reservoir_Inflow_proj/ --exp CRY --configs ./examples/Reservoir_Inflow_proj/CRY/configs_PI3NN.json
