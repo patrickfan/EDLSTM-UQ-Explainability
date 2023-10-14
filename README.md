@@ -19,6 +19,8 @@ And run the PI3NN-MLP:
 
 python main_PI3NN.py --data CRY --mode PI3NN_MLP --project ./examples/Reservoir_Inflow_proj/ --exp CRY --configs ./examples/Reservoir_Inflow_proj/CRY/configs_PI3NN.json
 
+For explainability:
+python multi_step_SHAP.py
 
 # Reference
 Fan, M., Liu, S., Lu, D., Gangrade, S. and Kao, S.C., 2023. Explainable machine learning model for multi-step forecasting of reservoir inflow with uncertainty quantification. Environmental Modelling & Software, p.105849. 
